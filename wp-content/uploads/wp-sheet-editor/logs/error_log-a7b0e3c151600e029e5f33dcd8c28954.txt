@@ -1,0 +1,18 @@
+2026-02-01 09:02:44.966557 (UTC) - Uncaught Error: Attempt to assign property "ctr" on null in C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-content\plugins\seo-by-rank-math\includes\modules\analytics\class-summary.php:248
+Stack trace:
+#0 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-content\plugins\seo-by-rank-math\includes\modules\analytics\rest\class-rest.php(256): RankMath\Analytics\Summary->get_analytics_summary()
+#1 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\rest-api\class-wp-rest-server.php(1292): RankMath\Analytics\Rest->get_dashboard(Object(WP_REST_Request))
+#2 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\rest-api\class-wp-rest-server.php(1125): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/rankmath/v1/an...', Array, NULL)
+#3 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\rest-api.php(467): WP_REST_Server->serve_request('/rankmath/v1/an...')
+#5 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\class-wp-hook.php(341): rest_api_loaded(Object(WP))
+#6 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#7 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\plugin.php(570): WP_Hook->do_action(Array)
+#8 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#9 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\class-wp.php(821): WP->parse_request('')
+#10 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-includes\functions.php(1343): WP->main('')
+#11 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-blog-header.php(16): wp()
+#12 C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\index.php(17): require('C:\\Users\\Samdar...')
+#13 {main}
+  thrown in C:\Users\Samdarshi Paul\Local Sites\corporatejoker\app\public\wp-content\plugins\seo-by-rank-math\includes\modules\analytics\class-summary.php on line 248
+
